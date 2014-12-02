@@ -1,0 +1,55 @@
+@art-winners: 'squidbiskets', '_penguinstein', 'jaistuart','mtvee','silentknight111','wisebrownmonkey','Forzan0','MiguelGusto','Eramedhine','christiandoran','TJSKI','JarlLangdon';
+
+@art-flair:   'AlexanderESmith', 'santiagorook', 'gage1013', 'OmmaNom', '92nicefella', 'adesens', 'HurrHurrHerman', 'AngelOfDelphi', 'swear_on_me_mam', 'Ironhide_Delta', 'iEzhik', 'Wickk', 'alxqs', 'temporaryblue', 'kryptonnms', 'grumpycorgi', 'Zedapedro', 'kokosmack', 'kevinstonge', 'nredom', 'sacrilegious', 'TheSheDM', 'danootz', 'zanyjedi', 'Hadoland', 'Phing123', 'partydolphin', 'anon5505', '_johncon', 'mintyrobo', 'Renigami', 'Phing123', 'Wontons', 'OrjanNC', 'sassybluewhale', 'montyman77', 'prc2', 'Battlekiller', 'zilchfox', 'tlayne', 'sardu1', 'spacekobra', 'modern_zenith', 'Cambienta', 'Vitruvious', 'CafeMephisto', 'Supernova821 ', 'gcruzatto', 'animustrator', 'eavesdroppingyou', 'jpMC74', 'mwellscubed', 'ikozehh', 'Raseha', 'MCSArts', 'AlexEscapedFate', 'ptzlm', '8comicbookman8', 'kaisengaard', 'penguinplatypus', 'xtapol', 'Simoneister', 'rekcufrehtomuoy', 'knarrenheinz', 'fruitcakefriday', 'benghiskhan', 'mrbojenglz', 'Jeffu', 'eRWT', 'tali3sin', 'JustAGenericPost', 'shoothemoon', 'Trifalger', 'Tanya3', 'JonSArt', 'DerpalSherpa', 'escdev', 'Lastemperor7', 'frbap';
+
+.author {
+  .for(@art-winners); .-each(@i) {
+    &[href$="/@{i}"]:after {
+      content: "";
+      width: 32px;
+      height: 16px;
+      display: inline-block;
+      background: url(%%win%%) !important;
+      margin-left: 3px;
+      vertical-align: middle;
+      margin-top: -0px;
+    }
+  }
+}
+
+.author {
+  .for(@art-flair); .-each(@i) {
+    &[href$="/@{i}"]:after {
+      content: "";
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      background: url(%%artflair%%) !important;
+      margin-left: 3px;
+      vertical-align: middle;
+      margin-top: -0px;
+    }
+  }
+}
+
+.author[href$="/jbkempf"]:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%VLCDEV%%) !important;
+  margin-right: 3px;
+  vertical-align: middle;
+  margin-top: -0px;
+}
+
+.author[href$="/KidneyStonesAreFun"]:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%neowin%%) !important;
+  margin-right: 3px;
+  vertical-align: middle;
+  margin-top: -0px;
+}

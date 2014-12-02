@@ -1,0 +1,1758 @@
+/*!
+ * /r/Surface less styles
+ *
+ * author: /u/MajorLawnLids
+ */
+body {
+  font-family: "Segoe UI", Helvetica, Arial, "Liberation Sans", "Arial Unicode MS", Sans-Serif;
+}
+::selection {
+  background: #1BA1E2;
+  color: white;
+}
+::-moz-selection {
+  background: #1BA1E2;
+  color: white;
+}
+::-webkit-selection {
+  background: #1BA1E2;
+  color: white;
+}
+a {
+  color: #0084c9;
+}
+a .userTagLink.hasTag {
+  background: #DEDEDE;
+  border: none;
+  border-radius: 0;
+  color: #555555;
+}
+a .voteWeight {
+  margin-right: 5px;
+}
+a:hover {
+  color: #003963;
+}
+div .flairselector {
+  position: absolute!important;
+}
+div .titlebox {
+  display: block;
+  margin-top: 10px;
+}
+div .titlebox h1 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 11px 0 0 0;
+}
+div .titlebox h2 {
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+}
+div .titlebox span.word {
+  display: none;
+}
+div .titlebox span.number:after {
+  content: " Surface users";
+}
+div .titlebox .md h1 {
+  background-color: #003963;
+  color: #FFFFFF;
+  padding: 4px 6px;
+}
+div .comment {
+  border-radius: 0!important;
+  border-color: white white white #DDDDFF!important;
+}
+.side .titlebox a[href*="/pjctz"],
+.id-t3_pjctz .usertext-body table a[href*="/pjctz"] {
+  background-repeat: no-repeat;
+  display: block;
+  width: 25px;
+  text-indent: -7777777px;
+}
+.side blockquote,
+.help blockquote {
+  background: #003963;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+.side {
+  padding-left: 10px;
+}
+.side h3:nth-of-type(1) {
+  background-color: #591eaa;
+  color: white;
+  display: block;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  line-height: 31px;
+  padding: 16px;
+  margin: -4px 0 15px 0;
+}
+.side h3:nth-of-type(1) a {
+  color: white;
+}
+.side h3:nth-of-type(1) a[href*="/comments/"] {
+  color: white;
+  font-weight: 700;
+  border-bottom: 1px dotted #FFF;
+}
+.side h4 [href*="http://i.imgur.com/SIDrWwF.jpg"] {
+  background: url(%%artt%%) no-repeat;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  padding: 0 0px;
+}
+.side blockquote h1 {
+  color: #fff;
+  padding: 0px;
+}
+.side blockquote h2 {
+  color: #fff;
+  margin-top: 8px;
+  font-weight: 700;
+}
+.side .flair {
+  display: none;
+}
+.side .tagline .flair {
+  display: inline;
+}
+.side .md h4 {
+  top: 240px;
+  right: 0px;
+  z-index: 99;
+}
+.side .md strong {
+  font-size: 17px;
+  font-weight: normal;
+  font-family: "Segoe UI Semibold", Helvetica, Arial, "Liberation Sans", "Arial Unicode MS", Sans-Serif;
+}
+.side .md p {
+  margin: 0px;
+}
+.side .md hr {
+  height: 0px;
+  border: 0;
+  padding: 5px;
+}
+body.listing-page #header-bottom-right {
+  position: absolute;
+  right: 0px;
+  bottom: 15px;
+}
+body.listing-page #header-bottom-right.res-navTop {
+  bottom: auto;
+}
+#sr-header-area {
+  border-bottom: 1px solid #DEDEDE;
+  font-size: 100%;
+}
+#header {
+  background-color: white;
+  border-bottom: 1px solid white;
+}
+#header-img {
+  margin: 25px 15px 0px 25px;
+}
+#header-bottom-left {
+  background-color: #F7F6FC;
+  /*
+  background-image: url(%%fuzzy%%);
+  background-repeat: no-repeat;
+  background-position: right 0px top;
+  background-size: 100%;
+  */
+}
+div.thing .RES-keyNav-activeElement,
+div.thing .commentarea .RES-keyNav-activeElement .md {
+  background-color: none !important;
+}
+#openRESPrefs {
+  position: absolute;
+  right: 5px;
+  top: -28px;
+}
+#mailCount {
+  position: absolute;
+  left: 208px;
+  top: -2px;
+  color: white;
+  font-size: 14px;
+  overflow: hidden;
+}
+#sr-form .usertext .bottom-area:after {
+  content: "To make announcements, use the h6 tag '######' and link to your announcement with '[Title](Link to announcement post)'";
+  display: block;
+  width: 100%;
+}
+#REScommentNavToggle .commentNavSortType:hover {
+  color: #003963;
+  text-decoration: none;
+}
+#srLeftContainer {
+  margin-left: 19px!important;
+}
+#subButtons {
+  display: inline-block;
+}
+#subButtons .RESshortcutside,
+#subButtons .RESDashboardToggle {
+  background: none;
+  border: 1px solid #333333;
+  border-radius: 0;
+  color: #333333;
+  padding: 5px 10px;
+  position: absolute;
+}
+#subButtons .RESshortcutside.remove,
+#subButtons.RESDashboardToggle.remove {
+  border: solid 1px #888888;
+  color: #888888;
+}
+#newlink .roundfield textarea,
+.roundfield input[type="text"],
+.roundfield input[type="password"] {
+  background: #EEEEEE;
+  border: solid 1px #DEDEDE;
+  color: #333333;
+}
+#sr-form {
+  margin-left: 5px;
+}
+#moderator-table table,
+#contributor-table table,
+#banned-table table,
+.flairrow,
+.traffic-graph,
+.traffic-table {
+  font-size: 13px;
+}
+#search input[type="text"]:focus {
+  outline: none;
+}
+#search input[type=submit] {
+  background-image: url(%%search%%);
+  background-position: -1px -1px;
+  background-repeat: no-repeat;
+}
+#search input[type=submit]:hover {
+  background-image: url(%%search%%);
+  background-position: -1px -1px;
+  background-repeat: no-repeat;
+}
+#search input[type="text"] {
+  border: 1px solid #EAEAEA;
+  color: #666666;
+  margin-top: 7px;
+  padding-left: 5px;
+}
+#searchexpando {
+  background: #E5E5E5;
+  border: solid 1px #E5E5E5;
+  border-radius: 0;
+  color: #333333;
+  margin: 0;
+  width: 270px;
+}
+#search {
+  position: relative;
+}
+#searchexpando:after {
+  color: #666666;
+  content: "…";
+  font-size: 25px;
+  position: absolute;
+  top: 21px;
+  right: 8px;
+}
+#ad-frame {
+  margin-top: 10px;
+}
+#authorInfoToolTipContents .bottomButtons .blueButton {
+  border-radius: 0;
+}
+#newlink {
+  margin-left: 4px;
+}
+.pagename.redditname a,
+.pagename.redditname a:hover {
+  background: url(%%newlogo%%) no-repeat;
+  padding-top: 39px;
+  padding-right: 140px;
+  text-indent: -9999px;
+  display: inline-block;
+}
+.tabmenu {
+  display: block;
+  margin-bottom: 11px;
+  border-bottom: 3px #EAEAEA solid;
+}
+.tabmenu li:first-child {
+  margin-left: 82px;
+}
+.tabmenu li {
+  font-family: "Segoe UI Semibold", Helvetica, Arial, "Liberation Sans", "Arial Unicode MS", Sans-Serif;
+  font-size: 17px;
+  font-weight: normal;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.tabmenu li a {
+  background-color: transparent;
+  color: #333333;
+}
+.tabmenu li a:hover {
+  color: #003963;
+}
+.tabmenu li a:active {
+  margin-top: 1px;
+}
+.tabmenu li.selected a {
+  background-color: transparent;
+  color: #333333;
+  border: none;
+}
+.tabmenu.formtab {
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+.tabmenu.formtab a {
+  background: #888888;
+  border: solid 2px #888888;
+  border-bottom-color: #888888;
+  color: white;
+  font-size: 100%;
+  font-weight: normal;
+}
+.tabmenu.formtab a:hover {
+  color: #333333;
+}
+.tabmenu.formtab .selected a {
+  background: white;
+  border: solid 2px #888888;
+  color: #333333;
+  font-size: 120%;
+}
+.titlebox h1.redditname {
+  display: none;
+}
+.titlebox h1.redditname a {
+  display: block;
+  height: 240px;
+  margin: 0 0 5px;
+  width: 300px;
+}
+.titlebox h6 {
+  background: #FB9D09;
+  display: block;
+  height: 15px;
+  left: 0;
+  padding: 2px 0 5px 0;
+  position: absolute;
+  top: 19px;
+  width: 100%;
+  z-index: 99;
+}
+.titlebox h6 a {
+  color: white;
+  display: block;
+  margin-left: 24px;
+  width: auto;
+}
+.titlebox form.toggle {
+  font-size: 10px;
+}
+.titlebox .md {
+  font-size: 13px;
+}
+.titlebox .bottom {
+  border-top-color: #DEDEDE;
+  font-size: 10px;
+}
+.titlebox .styleToggle {
+  margin-bottom: 7px;
+}
+.titlebox .md table,
+.id-t3_pjctz .usertext-body table {
+  margin-left: 0;
+}
+.titlebox .md td,
+.id-t3_pjctz .usertext-body table td {
+  border: none;
+}
+.titlebox .md th,
+.id-t3_pjctz .usertext-body table th {
+  display: none;
+}
+.nsfw-stamp acronym {
+  border-radius: 0;
+}
+.thing a.title:hover,
+.thing a.title.loggedin:hover {
+  color: #003963;
+}
+.thing .tagline .author.moderator {
+  color: #FFF!important;
+  font-weight: normal !important;
+  font-size: 12px;
+  border-radius: 0px !important;
+  background-color: #107E35!important;
+  padding: 2px 4px!important;
+}
+.thing .tagline .author.submitter {
+  background: #0055BF!important;
+  color: #FFF!important;
+  border-radius: 0px !important;
+  font-weight: normal !important;
+  padding: 2px 4px!important;
+}
+.title .domain {
+  color: white;
+  font-size: 10px;
+}
+.title .domain a:hover {
+  text-decoration: none;
+}
+.promoted .expando {
+  display: block;
+}
+.tagline {
+  color: #888888;
+  font-size: 11px;
+  margin-bottom: 1px;
+}
+.entry .buttons a:hover {
+  color: #003963;
+  margin-top: -1px;
+  text-decoration: none;
+}
+.nextprev {
+  font-size: 13px;
+  margin: 20px 0 0 1px;
+}
+.nextprev a {
+  background: none;
+  border: none;
+}
+.nextprev a:hover {
+  background: none;
+  border: none;
+}
+.nextprev a[rel~="prev"] {
+  margin-left: 18px;
+  margin-right: 8px;
+}
+.nextprev a[rel~="next"] {
+  margin-left: 10px;
+}
+.menuarea {
+  border-bottom: none;
+  font-size: 12px;
+  margin-left: 9px;
+}
+.dropdown.lightdrop .selected {
+  text-decoration: none;
+}
+.panestack-title {
+  border-bottom: 1px solid #DEDEDE;
+}
+.panestack-title .title {
+  display: none;
+}
+.formtabs-content {
+  border-top: none;
+}
+.roundfield {
+  background: #DEDEDE;
+  border-radius: 0;
+}
+.fancy-settings h1 {
+  color: #333333;
+  font-size: 21px;
+}
+.linefield {
+  background: #DEDEDE;
+  border-radius: 0;
+}
+.linefield .title {
+  color: #333333;
+  font-size: 21px;
+  font-weight: normal;
+}
+.linefield textarea,
+.linefield input[type="text"],
+.linefield input[type="password"] {
+  background: #EEEEEE;
+  border: solid 1px #DEDEDE;
+  color: #333333;
+}
+.tabpane-content {
+  border: none;
+}
+.searchpane.raisedbox {
+  border: none;
+  margin-left: 3px;
+}
+.linkinfo {
+  border: none;
+  font-family: "Segoe WPC", "Segoe UI", Helvetica, Arial, Verdana, "Arial Unicode MS", Sans-Serif;
+  padding: 6px;
+}
+.login-form-side {
+  border: none;
+}
+.login-form-side input[type="text"],
+.login-form-side input[type="password"] {
+  color: #333333;
+  padding: 1px 1px 1px 5px;
+  width: 132px;
+}
+.fancy-toggle-button {
+  min-width: 75px;
+  min-height: 36px;
+  background-color: #0482cf;
+  margin-bottom: 0px;
+}
+.fancy-toggle-button:hover,
+.fancy-toggle-button .add:hover,
+.fancy-toggle-button .remove:hover {
+  background-color: #003963;
+}
+.fancy-toggle-button .add,
+.fancy-toggle-button .remove,
+span.RESshortcut.RESshortcutside,
+span.RESshortcutside,
+span.RESDashboardToggle,
+span.RESDashboardToggle .remove {
+  background-color: #0482cf;
+  background-image: none;
+  border: solid 0px #888888;
+  border-radius: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: 400;
+  position: relative;
+  top: 8px;
+}
+span.RESshortcut.RESshortcutside,
+span.RESshortcutside,
+span.RESDashboardToggle {
+  padding: 8px 10px 9px;
+}
+.subscribers {
+  padding: 9px 6px;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+.users-online {
+  padding: 9px 6px;
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+  display: block;
+  margin-top: 5px;
+}
+.nub {
+  display: none;
+}
+.create {
+  display: none;
+}
+.sidebox .spacer {
+  display: none;
+}
+.sidecontentbox a.author {
+  font-size: 13px;
+}
+.icon-menu {
+  font-size: 13px;
+}
+.sidecontentbox h1 {
+  font-size: 18px;
+  margin-top: 28px;
+}
+.sidecontentbox ul.content {
+  border: none;
+  border-bottom: 1px solid #DEDEDE;
+}
+.flat-vert li a {
+  color: #333333;
+}
+.flat-vert li a:hover {
+  color: #003963;
+  text-decoration: none;
+}
+.bottommenu {
+  font-size: 12px;
+  line-height: 22px;
+}
+.flairgrant.flairlist:after {
+  content: "Available special userflairs: bing dev ie link skydrive skype wp-dev xbox";
+  font-size: 13px;
+}
+.title .linkflair {
+  background: none repeat scroll 0 0 #F5F5F5;
+  border: 1px solid #DDDDDD;
+  border-radius: 0;
+  color: #555555;
+  display: inline-block;
+  font-size: x-small;
+  margin-right: 0.5em;
+  padding: 0 2px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.linkflairlabel {
+  max-width: none;
+}
+.infobar {
+  border: none;
+  padding: 15px;
+}
+input:focus,
+textarea:focus {
+  outline-color: #333333;
+}
+.entry.keyHighlight {
+  background: #F7F7F8;
+  border-right: solid 3px #333;
+  outline: none;
+}
+.commentarea > .sitetable > div.comment {
+  border-color: white!important;
+  margin-bottom: 18px;
+}
+.sitetable div.stickied {
+  border-left: 5px solid #5C22AB;
+}
+.sitetable div.stickied .title {
+  color: #003963 !important;
+}
+.submit_text.roundfield {
+  position: absolute;
+}
+.arrow.down:hover:after {
+  position: absolute;
+  white-space: normal;
+  display: block;
+  z-index: 1000;
+  width: 250px;
+  border: 0 solid #000;
+  background: #1ba1e2;
+  content: "This is not a disagree button, only downvote if someone is not contributing to the thread";
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 25px;
+  margin-top: 5px;
+  padding: 5px;
+}
+.thumbnail {
+  margin: 0 10px 0 5px;
+  height: 50px;
+}
+.thumbnail img {
+  padding-top: 6px;
+}
+.thumbnail.default,
+.thumbnail.self {
+  display: none;
+}
+.thumbnail.nsfw {
+  display: none;
+}
+.morelink {
+  height: 28px;
+  padding: 10px;
+  background-image: none;
+  background: #0482cf none repeat-x scroll center left;
+}
+.morelink a {
+  border: 0;
+  padding: 0px 0 4px 0;
+  font-weight: 300;
+  color: white;
+  font-size: 21px;
+}
+.morelink a:active {
+  padding: 2px 0 8px 0;
+}
+.morelink:hover,
+.mlh {
+  background-image: none;
+  background-color: #003963;
+}
+.md {
+  margin-top: 8px;
+}
+.md h1 {
+  margin: 0 0 7px 0;
+}
+.sitetable {
+  margin-top: 14px;
+  /*
+  a.author {
+    color: #333333;
+  }
+
+  a.submitter {
+    color: #0055DF;
+  }
+  a.moderator {
+    color: #228822;
+  }
+  a:hover.author {
+    color: @a-hover;
+    text-decoration: none;
+  }
+  */
+}
+.content {
+  font-size: 10px;
+  margin-left: 21px;
+}
+.content h1 {
+  font-size: 18px;
+}
+.content h2 {
+  color: #333333;
+}
+.content > p,
+.content > ul {
+  font-size: 13px;
+}
+.link {
+  margin: 0 0 -1px !important;
+  background-color: #FFFFFF;
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid #dadada;
+  border-left: 0;
+}
+.link .rank {
+  display: none;
+}
+.link .midcol {
+  margin-left: 1px;
+}
+.link a.title:visited {
+  color: #666666;
+}
+.link.last-clicked {
+  border: 0;
+}
+.link .title,
+.link .title.loggedin {
+  color: #0066AA;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: -1px;
+}
+.link .usertext .md,
+.md {
+  background: none;
+  border: none;
+  color: #222222;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 0;
+}
+.flair,
+.linkflairlabel {
+  background: none repeat scroll 0 0 #DEDBE0;
+  border-radius: 0px;
+  color: #000000;
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 1px 4px 1px;
+}
+.linkflair .linkflairlabel {
+  background: url(%%autolink%%) no-repeat 0px 0px;
+  vertical-align: middle;
+  border: none !important;
+  text-indent: -50px;
+}
+.linkflair-pro .linkflairlabel,
+.linkflair.linkflair-pro > .linkflairlabel {
+  background-position: 0 -321px;
+  width: 23px;
+  height: 12px;
+}
+.linkflair-pro2 .linkflairlabel,
+.linkflair.linkflair-pro2 > .linkflairlabel {
+  background-position: 0 -383px;
+  width: 30px;
+  height: 12px;
+}
+.linkflair-rt .linkflairlabel,
+.linkflair.linkflair-rt > .linkflairlabel {
+  background-position: 0 -445px;
+  width: 19px;
+  height: 12px;
+}
+.linkflair-s2 .linkflairlabel,
+.linkflair.linkflair-s2 > .linkflairlabel {
+  background-position: 0 -507px;
+  width: 17px;
+  height: 12px;
+}
+.linkflair-store .linkflairlabel,
+.linkflair.linkflair-app > .linkflairlabel {
+  background-position: 0 -132px;
+  width: 29px;
+  height: 12px;
+}
+.linkflair-dev .linkflairlabel,
+.linkflair.linkflair-dev > .linkflairlabel {
+  background-position: 0 -194px;
+  width: 27px;
+  height: 12px;
+}
+.linkflair-ms .linkflairlabel,
+.linkflair.linkflair-ms > .linkflairlabel {
+  background-position: 0 -256px;
+  width: 15px;
+  height: 15px;
+}
+.author[href$="/squidbiskets"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/_penguinstein"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/jaistuart"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/mtvee"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/silentknight111"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/wisebrownmonkey"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Forzan0"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/MiguelGusto"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Eramedhine"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/christiandoran"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/TJSKI"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/JarlLangdon"]:after {
+  content: "";
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%win%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/AlexanderESmith"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/santiagorook"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/gage1013"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/OmmaNom"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/92nicefella"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/adesens"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/HurrHurrHerman"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/AngelOfDelphi"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/swear_on_me_mam"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Ironhide_Delta"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/iEzhik"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Wickk"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/alxqs"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/temporaryblue"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/kryptonnms"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/grumpycorgi"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Zedapedro"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/kokosmack"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/kevinstonge"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/nredom"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/sacrilegious"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/TheSheDM"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/danootz"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/zanyjedi"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Hadoland"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Phing123"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/partydolphin"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/anon5505"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/_johncon"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/mintyrobo"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Renigami"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Phing123"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Wontons"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/OrjanNC"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/sassybluewhale"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/montyman77"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/prc2"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Battlekiller"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/zilchfox"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/tlayne"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/sardu1"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/spacekobra"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/modern_zenith"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Cambienta"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Vitruvious"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/CafeMephisto"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Supernova821 "]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/gcruzatto"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/animustrator"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/eavesdroppingyou"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/jpMC74"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/mwellscubed"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/ikozehh"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Raseha"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/MCSArts"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/AlexEscapedFate"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/ptzlm"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/8comicbookman8"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/kaisengaard"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/penguinplatypus"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/xtapol"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Simoneister"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/rekcufrehtomuoy"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/knarrenheinz"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/fruitcakefriday"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/benghiskhan"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/mrbojenglz"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Jeffu"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/eRWT"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/tali3sin"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/JustAGenericPost"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/shoothemoon"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Trifalger"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Tanya3"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/JonSArt"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/DerpalSherpa"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/escdev"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/Lastemperor7"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/frbap"]:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%artflair%%) !important;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/jbkempf"]:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  /* background: url(%%VLCDEV%%) !important; */
+  margin-right: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+.author[href$="/KidneyStonesAreFun"]:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(%%neowin%%) !important;
+  margin-right: 3px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
